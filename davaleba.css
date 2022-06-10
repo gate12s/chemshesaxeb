@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12px;
+}
+body{
+    background-color: #E4E0E0;
+}
+header{
+    width: 100%;
+    padding: 50px 100px ; 
+}
+header nav{
+    width: 200px;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul li a {
+   color: #000000;
+   font-size: 16px;
+   padding: 5px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+ul li a:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 0px;
+}
+.flex{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.zogadiinfosurati{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zogadiimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.zogadiimg img{
+    width: 100%;
+}
+.zogadiitem img{
+    width: 100% ;
+}
+.zogadiinfocontainer p{
+    width:45% ;
+
+}
+.zogadiinfocontainer h3{
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+.ganatlebaitem{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .ganatlebaimg{
+    width: 200px;
+}
+.ganatlebaimg img{
+    width: 100%;
+}
+.contactitem:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.contactitem{
+    width: 30%;
+}
+.contactitem a{
+    width: 100%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactitem h3{
+    margin-bottom: 50px;
+}
+.contactimg{
+    width: 200px;
+}
+.contactimg img{
+    width: 100%;
+}
+footer{
+    padding: 20px 0px;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
